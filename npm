@@ -1,0 +1,16 @@
+install express
+npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/node
+install nodemon 
+.babelrc
+{
+  "presets": [
+    "@babel/preset-env"
+  ]
+}
+
+script 
+"start": "nodemon --exec babel-node init.js"
+install mongoose
+install dotenv (require('dotenv')
+.env (name = value)
+process.env.name
